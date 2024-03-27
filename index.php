@@ -1,7 +1,7 @@
 <?php
 
 if (!empty($_GET['l'])){
-    $letter = $_GET['l'];
+    $letter = strtoupper($_GET['l']);
 } else {
     $letter = "T";
 }
